@@ -1,0 +1,57 @@
+.lp-gym {
+    margin: 150px auto 0 auto;
+    text-align: center;
+    max-width: 1000px;
+
+    img {
+        width: 80%;
+    }
+}
+table {
+    margin: 30px auto;
+    text-align: left;
+    background-color: rgb(222, 237, 237);
+    max-width: 800px;
+    padding: 30px;
+    display: flex;
+
+    th {
+        display: block;
+        font-size: 1.8rem;
+    }
+    td {
+        display: block;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #6e6e6e;
+    }
+}
+@media screen and (min-width: 768px){
+    .lp-gym {
+    
+        img {
+            width: 60%;
+        }
+    }
+    table {
+        border-collapse:collapse;
+
+       tr {
+        border-bottom: 1px solid #6e6e6e;
+       }
+        th {
+            display: inline-block;
+            width: 40%;
+            margin-top: 10px;
+        }
+        td {
+            display: inline-block;
+            width: 60%;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            border-bottom: none;
+        }
+    }
+}
