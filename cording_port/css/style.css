@@ -826,6 +826,8 @@ footer p {
   /* PC問い合わせ　--*/
   .contact-form {
     padding: 70px 120px;
+    -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
   }
   .contact-text {
     text-align: center;

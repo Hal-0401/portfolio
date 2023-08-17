@@ -822,6 +822,7 @@ margin: 0 auto;
 /* PC問い合わせ　--*/
 .contact-form {
   padding: 70px 120px;
+  backdrop-filter: blur(12px);
 }
 .contact-text {
   text-align: center;
