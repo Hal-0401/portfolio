@@ -1,11 +1,19 @@
 .container {
-  margin: 150px auto 0 auto;
+  margin: 0 auto;
+  padding-top: 150px;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.container-sub {
+  margin: -150px auto 0 auto;
+  padding-top: 150px;
   text-align: center;
   max-width: 1000px;
 }
 
 .mockup {
-  width: 90%;
+  width: 40%;
   margin: 30px auto;
 }
 
@@ -121,4 +129,4 @@ table td {
   .tool span:nth-child(3) {
     margin: 5px 0 0 10px;
   }
-}/*# sourceMappingURL=works.css.map */
+}/*# sourceMappingURL=banner.css.map */

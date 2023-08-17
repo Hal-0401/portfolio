@@ -7,11 +7,11 @@ html {
   body {
     font-family: "Noto Sans JP", "游ゴシック Medium", "YuGothic", "游ゴシック体", "sans-serif";
     color: #333;
-    background-color: #f7f7f7;
+    background-color: #f1f1f6;
     box-sizing: border-box;    
   }
   section {
-    margin-bottom: 150px;
+    margin: 0 auto;
     text-align: center;
   }
   ul {
@@ -34,3 +34,6 @@ html {
   h3 {
     font-size: 2.0rem;
   }
+#works, #about, #contact {
+  padding: 120px 2%;
+}

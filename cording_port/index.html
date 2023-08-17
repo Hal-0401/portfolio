@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="./css/common.css">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="icon" type="image/ico" href="">
-<link rel="icon" href="img/favicon.gif">
+<link rel="icon" href="img/favicon.bmp">
 <script>
   (function(d) {
     var config = {
@@ -26,7 +26,8 @@
 <body>
     <header class="header" id="home">
       <div class="header-inner">
-            <h1 class="logo"><a href="#"><img src="./img/logo.jpg" alt="ロゴ画像"></a></h1>
+            <h1 class="logo"><a href="#"><img src="./img/logo.png" alt="ロゴ画像"></a></h1>
+            <h1 class="logo-white"><a href="#"><img src="./img/logo-white.png" alt="ロゴ画像"></a></h1>
             <nav class="main-nav">
             <ul>
                 <li><a href="#works">Works</a></li>
@@ -34,7 +35,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <button class="menu-btn"><span></span></button>
+        <button class="menu-btn"><span></span><span></span><span></span></button>
       </div></header>
         <nav class="sub-nav">
             <ul>
@@ -44,6 +45,7 @@
             </ul>
         </nav>
         <main>
+          <div class="full-screen">
     <div class="main-bg inner fade">
         <img class="bg" src="./img/mainbg.png" alt="メインビジュアル">
         <img class="bgicon" src="./img/mainbg-icon.png" alt="ハートアイコン">
@@ -53,40 +55,43 @@
           
         </div>
         </div>
-          <section class="works inner fade" id="works">
+      </div>
+         <section class="works inner fade" id="works">
             <h2 class="works-bigheadline">Works</h2>
             <h3 class="works-Subheading">WEB SITE</h3>
         <!-- ウェブサイト -->
         <div class="website">
-        <ul>
-          <li><div class="works-website"><a href="gym.html"><div class="image-overlay"></div>
+          <div class="works-website"><a href="gym.html"><div class="image-overlay"></div>
         <img class="works-website_img" src="./img/gym-top.jpg" alt="スポーツジムサイト">
-        <button class="works-website_text gym">SPORTS GYM</button></div></a></li>
+        <button class="works-website_text gym">SPORTS GYM</button></a></div>
 
-        <li><div class="works-website scroll_up">
-          <div class="image-overlay"></div>
+        <div class="works-website"><a href="dental.html"><div class="image-overlay"></div>
            <img class="works-website_img" src="./img/dental-top.jpg" alt="デンタルクリニックサイト">
-        <p class="works-website_text dental">DENTAL CLINIC</p></div></li>
+        <p class="works-website_text dental">DENTAL CLINIC</p></a></div>
 
-        <li><div class="works-website"><a href="http://wada0429site.html.xdomain.jp/" target="_blank"><div class="image-overlay"></div>
+        <div class="works-website"><a href="teaser.html"><div class="image-overlay"></div>
         <img class="works-website_img" src="./img/teaser-top.png" alt="アイアムティザーサイト">
-        <p class="works-website_text teaser">TEASER SITE<img class="betu" src="./img/betumado.png" alt="別窓"></p></a></div></li>
+        <p class="works-website_text teaser">TEASER SITE</p></a></div>
                               
-        <li><div class="works-website"><div class="image-overlay"></div>
+        <div class="works-website"><a href="salon.html"><div class="image-overlay"></div>
         <img class="works-website_img" src="./img/salon-top.png" alt="ヘアサロンサイト">
-        <p class="works-website_text salon">HAIR SALON</p></div></li>
-      </ul></div>
+        <p class="works-website_text salon">HAIR SALON</p></a></div>
+      </div>
 <!-- バナー -->
-        <h3 class="works-Subheading">BANNER</h3>
-        <div class="banner"><ul>
-        <li><div class="works-banner"><div class="image-overlay"></div>
+        <h3 class="works-Subheading fade">BANNER</h3>
+        <div class="banner fade">
+        <div class="works-banner"><a href="banner.html"><div class="image-overlay"></div>
         <img class="works-banner_img" src="./img/sale-top.jpg" alt="セールバナー">
-        <p class="works-banner_text">SALE</p></div></li>
+        <p class="works-banner_text">SALE</p></a></div>
                                    
-        <li><div class="works-banner"><div class="image-overlay"></div>
+        <div class="works-banner"><a href="banner.html#travel"><div class="image-overlay"></div>
         <img class="works-banner_img" src="./img/travel.jpg" alt="旅行特典バナー">
-        <p class="works-banner_text">TRAVEL</p></div></li>
-      </ul></div>
+        <p class="works-banner_text">TRAVEL</p></a></div>
+
+        <div class="works-banner"><a href="banner.html#school"><div class="image-overlay"></div>
+          <img class="works-banner_img" src="./img/school.jpg" alt="オンライン講座バナー">
+          <p class="works-banner_text">SCHOOL</p></a></div>
+      </div>
       </section>
         <section class="about inner fade" id="about">
             <h2 class="about-bigheadline">About</h2>
@@ -94,31 +99,33 @@
             <div class="works-skill">
             <ul>
               <li><div class="works-skill_title"><img src="./img/skill-design.png" alt="デザイン"><span>ウェブデザイン</span></div>
-                <div class="works-skill_text"><p>レスポンシブに対応したウェブサイトやバナー、チラシデザインにも対応します。</p></div></li>
+                <div class="works-skill_text">
+                  <p>「遊び心あるデザイン」をモットーに、レスポンシブに対応したウェブサイトやバナー、効果的なチラシデザインにも対応します。<br>
+                    お客様のご希望に沿いながら、常にトレンドを取り入れたアイデア豊かなデザインを提供します。</p></div></li>
               <li><div class="works-skill_title"><img src="./img/skill-cord.png" alt="デザイン"><span>コーディング</span></div>
-                <div class="works-skill_text"><p>ご提案いただいたデザインをもとに、HTML、CSS、JavaScriptを使用したウェブサイトを制作します。</p></div></li>
+                <div class="works-skill_text">
+                  <p>HTML、CSS、JavaScriptのスキルを活かし、魅力的なウェブサイトを制作します。<br>お客様のビジョンを形にするだけでなく、ユーザーに訴求するデザインを実現するためのお手伝いをさせてください。</p></div></li>
               <li><div class="works-skill_title"><img src="./img/skill-wordpress.png" alt="デザイン"><span>Wordpress</span></div>
-                <div class="works-skill_text"><p>記事投稿が可能なサイトを作成します。</p></div></li>
+                <div class="works-skill_text"><p>WordPressを活かし、デザイン性と使いやすさを両立したサイトを提供します。<br>プラグインやテーマを最適に活用し、記事投稿が可能なウェブサイトを構築します。</p></div></li>
               </ul>
             </div>
 
-            <div class="about-profile">
+            <div class="about-profile fade">
             <div class="about-profile_title"><h3 class="works-Subheading">Wada's Profile</h3>
             <img src="./img/profile-icon.png" alt="プロフィール用アイコン"></div>
             <div class="about-profile_text">
             <p>奈良県生まれ。医薬品メーカーの営業事務として勤務していました。</p>
-            <p>商品のデザイン修正や資料作りなどを通じて、自分が関わった商品がエンドーユーザーの手元に届くことに
-                興味を持つようになり、Webデザインに関わる仕事をしたいと思うようになりました。
-            （学生時代には趣味の範囲で、友人との交流用にホームページを作成していた経験があります。）</p>
-            <p>2019年からは独学でWebデザインを学び、デジタルハリウッドオンラインスクール
-            【WEBデザイン講座 フリーランスプラン】を8ヶ月間にわたって受講しました。
-            受講修了後、デジタルハリウッドが主催する特別講座にも参加し、
+            <p>商品のデザイン修正や資料作りなどを通じて、自分が関わった商品がエンドーユーザーの手元に届くことをきっかけに、
+              Webデザインに関わる仕事をしたいと思うようになりました。</p>
+            <p>2019年からは独学でWebデザインを学び、デジタルハリウッドオンラインスクールで
+            WEBデザイン講座を8ヶ月間にわたって受講しました。
+            受講修了後、特別講座にも参加し、
             実際の仕事に適用できる情報設計やヒアリング技術を学びました。</p>
             <p>ユーザーが最初の一目で興味を持ち、ワクワクしてもらえるようなサイト作りを目指しています。</p>
         </div>
     </div>
         </section>
-        <section id="contact" class="inner fade">
+        <section id="contact" class="contact inner fade">
           <h2 class="contact-bigheadline">Contact</h2>
           <p class="contact-text">Webサイトの制作のご依頼やお見積りなど、<br class="sponly">お気軽にご相談ください。</p>
         <div class="contact-form">
@@ -151,13 +158,14 @@
     <div class="footer inner">
         <nav class="footer-nav">
             <ul>
-                <li><a href="#home">Top</a></li>
+                <li><a href="#">Top</a></li>
                 <li><a href="#works">Works</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#conact">Contact</a></li>
             </ul>
         </nav></div>
     <p><small>&copy; Wada's portfolio</small></p>
+    <a id="top-btn" href="#"><img src="./img/top.png" alt="トップページに戻るボタン"></a>
     </footer>
     <script src="js/javascript.js"></script>
    </body>
